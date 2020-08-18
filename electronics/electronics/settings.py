@@ -23,9 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '@^@qfb@lfndmu+r#-n7z%)*pb=rzb5spk=)&&+qe@i25scibdr'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['shopgalaxy.herokuapp.com','127.0.0.1']
 
 
 # Application definition
